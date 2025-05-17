@@ -21,7 +21,7 @@ client.on('voiceStateUpdate', async (oldState, newState) => {
   const member = newState.member;
 
   // Rol que se asignará
-  const roleId = '1372688331674095667'; // <- cambia esto por el ID del rol que quieres asignar
+  const roleId = '1373359686073585735'; // <- cambia esto por el ID del rol que quieres asignar
 
   // Si entra a una llamada
   if (!oldState.channel && newState.channel) {
